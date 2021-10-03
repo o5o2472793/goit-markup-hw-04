@@ -47,7 +47,7 @@ body {
         margin-right: 10px;
     }           
 
-.contakt-link {
+    .contakt-link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -56,29 +56,25 @@ body {
     justify-content: center;
     
     }
-    .contakt-icon {
+        .contakt-icon {
         width: 16px;
         height: 12px;
         fill: var(--thri-title-color);
     }
-        .contakt-link:hover, 
-        .contakt-link:focus {
+        .contakt-icon:hover, 
+        .contakt-icon:focus {
          fill: var(--akcent-title-color);
-         
-        }
+                 }
+ .contakt-icon-tel:hover, 
+ .contakt-icon-tel:focus {
+ fill: var(--akcent-title-color);
+                          }
  
-        .contakt-link:hover .contakt-icon,
-        .contakt-link:focus .contakt-icon {
-         fill:var(--akcent-title-color);
-        }
-
         .contakt-icon-tel {
             width: 10px;
             height: 16px;
             fill: var(--thri-title-color);
         }
-
-
 
 .header-contakt {
     display: flex;
@@ -175,7 +171,7 @@ color:var(--akcent-title-color);
         rgba(47, 48, 58, 0.4)),
      url(../images/fon.jpg); 
     background-repeat: no-repeat;
-    background-position: absolute;
+    background-position: top;
     background-size: cover;
 
 }
@@ -424,6 +420,11 @@ margin-bottom: 50px;
            fill: #AFB1B8;
        }
    /*-------futer------*/
+
+   .ad-1{
+text-align: start;
+
+   }
    .footer-logo-1 {
     font-family: Raleway;
     font-style: normal;
@@ -434,6 +435,7 @@ margin-bottom: 50px;
     color: var(--akcent-title-color);
    }
    .footer-logo-2 {
+
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
@@ -443,6 +445,7 @@ margin-bottom: 50px;
     color: var(--praimary-title-color);
    }
   .adres {
+      display: flex;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -454,6 +457,7 @@ margin-bottom: 50px;
    }
 
   .adres-2 {
+      display: flex;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -462,10 +466,106 @@ margin-bottom: 50px;
     text-decoration: none;
     color: var(--praimary-title-color);
       }
-.adres-1{
+
+    .adres-1{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 60px;    
+   
     }
+.position {
+    width: 231px;
+height: 81px;
+}
+    .name {
+    display: flex; 
+    align-items: baseline;
+   
+  
+
+
+
+    }
+
+   
+        .futer-text {
+            display: flex;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--praimary-title-color);
+            margin-bottom: 20px;
+            margin-left: 70px;
+            justify-content: center;
+            align-items: center;
+          
+           
+         
+        }
+    
+            .futer-lict {
+            display: flex;
+        
+            justify-content: center;
+           
+        
+                                               }
+        .futer-item {
+            width: 44px;
+            height: 44px;
+            
+        }
+    
+        .futer-item + .futer-item {
+            margin-left: 10px;
+        }
+    
+          .futer-link {
+            display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        /* border-color: #FFFFFF; */
+        background-color: rgba(255, 255, 255, 0.1);;
+        align-items: center;
+        justify-content: center;
+        margin-left: 70px;
+        }
+    
+        .futer-link:hover, 
+        .futer-link:focus {
+         background-color: #2196F3;
+        }
+    
+        .futer-link:hover .futer-icon,
+        .futer-link:focus .futer-icon {
+         fill:var(--praimary-title-color);
+        }
+    
+        .futer-icon {
+            width: 20px;
+            height: 20px;
+            fill:var(--praimary-title-color);
+        }
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
 
 /*-----postojann.klient----*/
 .klient-text{   
@@ -538,74 +638,6 @@ margin-top: 94px;
 
 
 
-    .futer-text {
-        display: flex;
-        justify-content: center;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--praimary-title-color);
-        margin-bottom: 20px;
-        align-items: baseline;
-     
-    }
-
-    .futer-lict {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-      
-                    }
-    .futer-item {
-  
-        width: 44px;
-        height: 44px;
-    }
-
-    .futer-item + .futer-item {
-        margin-left: 10px;
-    }
-
-      .futer-link {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    /* border-color: #FFFFFF; */
-    background-color: rgba(255, 255, 255, 0.1);;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .futer-link:hover, 
-    .futer-link:focus {
-     background-color: #2196F3;
-    }
-
-    .futer-link:hover .futer-icon,
-    .futer-link:focus .futer-icon {
-     fill:var(--praimary-title-color);
-    }
-
-    .futer-icon {
-        width: 20px;
-        height: 20px;
-        fill:var(--praimary-title-color);
-    }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -615,18 +647,18 @@ margin-top: 94px;
 
 /*-----portfolio------*/
   
-
+.knopki-otstup {
+    margin-top: 112px;
+    margin-bottom: 34px;
+}
 
 .btn-portfolio {
 display: flex; 
-margin-bottom: 20px;
-margin-top: 60px;
 justify-content: center;
-
-
-
 }
-
+.cart-boton {
+    margin-bottom: 76px;
+}
 
 .card-set {
     display: flex;
@@ -667,7 +699,13 @@ justify-content: center;
     color: var(--praimary-title-color);
     background-color: var(--akcent-title-color);
    }
-   .rozdilu {
+
+   
+   .cart-shadow:hover, 
+   .cart-shadow:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+   }
+.rozdilu {
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -687,4 +725,5 @@ justify-content: center;
     letter-spacing: 0.03em;
     color: var(--thri-title-color);
     margin-left: 24px;
+    margin-bottom: 20px;
    }
