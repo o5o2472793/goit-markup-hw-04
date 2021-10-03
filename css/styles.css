@@ -472,11 +472,8 @@ text-align: start;
     padding-bottom: 60px;    
    
     }
-.position {
-    width: 231px;
-height: 81px;
-}
-    .name {
+
+    .name-1 {
     display: flex; 
     align-items: baseline;
    
