@@ -181,11 +181,9 @@ color:var(--akcent-title-color);
     justify-content: center;
    
 }
-.hero {
-    /* padding-top: 200px; 
-    padding-bottom: 600px; */
+
    
-} 
+
 
 .button-flexs {
     display: flex;
